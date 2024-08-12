@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "name": "Simple Proxy Client",
+  "permissions": [
+      "proxy",
+      "storage"
+  ],
+  "host_permissions": [
+    "*://*/*"
+  ],
+  "action": {
+    "default_title": "Simple Proxy Client",
+    "default_popup": "js/popup.html"
+  }
+}
